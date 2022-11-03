@@ -1,0 +1,22 @@
+.main-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-item {
+    text-align: center;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

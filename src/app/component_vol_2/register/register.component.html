@@ -1,0 +1,13 @@
+<form [formGroup]="form" (submit)="submit()">
+    <h1 class="h3 mb-3 fw-normal" >Please register a new account!</h1>
+
+    <input type="email" formControlName="email" class="from-control" placeholder="Email" required>
+
+    <input type="password" formControlName="password" class="from-control" placeholder="Password" required>
+    
+    <input type="text" formControlName="lastName" class="from-control" placeholder="Last name" required>
+    
+    <input type="text" formControlName="firstName" class="from-control" placeholder="First name" required>
+
+    <button class="w-100 btn btn-lg btn -primary">Register</button>
+</form>
