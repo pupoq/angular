@@ -17,6 +17,10 @@ import { MovieComponent } from './component_vol_2/movie/movie.component';
 import { TestComponent } from './component_vol_2/test/test.component';
 import { AsdComponent } from './component_vol_2/asd/asd.component';
 import { StudentComponent } from './component_vol_2/student/student.component';
+import { BeverageComponent } from './component_vol_2/beverage/beverage.component';
+import { LogComponent } from './component_vol_2/log/log.component';
+import { RegComponent } from './component_vol_2/reg/reg.component';
+import { PostComponent } from './component_vol_2/post/post.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +38,10 @@ import { StudentComponent } from './component_vol_2/student/student.component';
     TestComponent,
     AsdComponent,
     StudentComponent,
+    BeverageComponent,
+    LogComponent,
+    RegComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

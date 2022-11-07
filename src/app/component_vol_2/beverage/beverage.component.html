@@ -1,0 +1,10 @@
+<div class="child">
+    <h2>Child component</h2>
+    <p>Todays beverage</p>
+    <label for="beverage-input">Add yout beverage</label>
+    <input type="text" id="beverage-input" #newBeverage>
+    <ul>
+        <li *ngFor="let item of drinkService.beverages">{{item}}</li>
+    </ul>
+    <button (click)="addNewBeverage(newBeverage.value); newBeverage.value=''">Submit</button>
+</div>

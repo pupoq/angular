@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <input type="text" placeholder="Login" [(ngModel)]="login">
+    </div>
+    <div>
+        <input type="password" placeholder="Password" [(ngModel)]="password">
+    </div>
+    <div>
+        <input type="password" placeholder="Repeat password" [(ngModel)]="repeatPassword">
+    </div>
+    <div>
+        <button (click)="register()" class="btn btn-success">Регистрация</button>
+    </div>
+    <app-log></app-log>
+</div>

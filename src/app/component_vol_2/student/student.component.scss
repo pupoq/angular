@@ -24,3 +24,19 @@ table th {
     width: 1040px;
     margin: auto;
 }
+
+.asd {
+    animation: asd 0.5s;
+}
+
+@keyframes asd {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: 10px;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

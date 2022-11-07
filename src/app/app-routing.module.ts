@@ -4,6 +4,7 @@ import { LoginComponent } from './component_vol_2/login/login.component';
 import { MoviesComponent } from './component_vol_2/movies/movies.component';
 import { ProfileComponent } from './component_vol_2/profile/profile.component';
 import { RegisterComponent } from './component_vol_2/register/register.component';
+import { StudentComponent } from './component_vol_2/student/student.component';
 import { TestComponent } from './component_vol_2/test/test.component';
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'profile' , component: ProfileComponent},
   { path: 'movies' , component: MoviesComponent},
   { path: 'asd' , component: TestComponent},
+  {path: 'student', component: StudentComponent}
 ];
 
 @NgModule({

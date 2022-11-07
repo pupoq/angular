@@ -1,0 +1,12 @@
+<div>
+    <p>{{name}}</p>
+    <p>{{moreInfo2}}</p>
+</div>
+
+<input placeholder="Name" type="text" #newPost>
+<input placeholder="More info" type="text" #newInfo>
+    <button (click)="addPost(newPost.value, newInfo.value); newPost.value = ''; newInfo.value=''">Click!</button>
+
+<div *ngFor="let item of posts.posts">
+        <p (click)="moreInfo(item.name, item.moreInfo)">{{item.name}}</p>
+</div>
