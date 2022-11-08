@@ -1,0 +1,12 @@
+<div class="wrapper" *ngFor="let film of filmService.films">
+    <div class="asd">
+        <img [src]="film.image" [alt]="film.id">
+        <p>{{film.title}}</p>
+        <p>{{film.date}}</p>
+        <p>{{film.rating}}</p>
+        <button (click)="getAllFilms()" class="btn btn-warning">Get data</button>
+    </div>
+</div>
+
+
+{{asd}}

@@ -21,6 +21,7 @@ import { BeverageComponent } from './component_vol_2/beverage/beverage.component
 import { LogComponent } from './component_vol_2/log/log.component';
 import { RegComponent } from './component_vol_2/reg/reg.component';
 import { PostComponent } from './component_vol_2/post/post.component';
+import { FilmComponent } from './component_vol_2/film/film.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { PostComponent } from './component_vol_2/post/post.component';
     LogComponent,
     RegComponent,
     PostComponent,
+    FilmComponent,
   ],
   imports: [
     BrowserModule,

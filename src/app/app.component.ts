@@ -40,5 +40,4 @@ export class AppComponent {
       this.beverageService.addBeverage(newBeverage)
       console.log(newBeverage)
     }
-
 }
