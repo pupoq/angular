@@ -20,7 +20,7 @@ export class TestComponent implements OnInit {
     {city: 'Tokyo', population: 13000000}
   ]
 
-  public date = new Date()
+  // public date = new Date()
 
   public message: string = 'The cities are listed'
 
